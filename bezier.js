@@ -98,3 +98,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     draw();
 });
+
+document.getElementById('reloadButton').addEventListener('click', function() {
+    window.location.reload();
+});
